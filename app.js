@@ -9,6 +9,6 @@ app.controller('listingsController', function($scope, Listings) {
     as described in the assignment spec. 
    */
   $scope.addListing = function() {};
-  $scope.deleteListing = function() {};
+  $scope.deleteListing = function(index) {};
   $scope.showDetails = function(index) {};
 });
